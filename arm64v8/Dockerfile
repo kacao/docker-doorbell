@@ -1,4 +1,4 @@
-FROM arm64v8/python:3.6.8-slim-stretch
+FROM arm32v7/python:3.6.8-slim-stretch
 MAINTAINER Khanh Cao <khanhncao@gmail.com>
 VOLUME /media
 COPY root/ /
