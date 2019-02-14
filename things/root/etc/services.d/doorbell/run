@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv bash
+exec pipenv run python3 main.py -h $HOST -p $PORT -d '/media'
