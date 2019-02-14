@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /app/doorbell
+echo "Running main.py with $HOST $PORT"
+exec python3 main.py -p $PORT -d /media
